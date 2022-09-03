@@ -1,5 +1,4 @@
 import Heading from "../Heading/Heading";
-import SkillCard from "../SkillCard/SkillCard";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "./skills.style.css";
 

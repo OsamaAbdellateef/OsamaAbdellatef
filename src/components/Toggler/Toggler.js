@@ -6,9 +6,7 @@ import { ThemeContext } from "../../themeContext";
 
 const Toggler = () => {
   const { darkMode, toggleTheme } = useContext(ThemeContext);
-  useEffect(() => {
-    console.log("dark mode:", darkMode);
-  }, [darkMode]);
+
   return (
     <div
       className="t cursor-pointer"

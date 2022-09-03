@@ -64,11 +64,9 @@ const Contact = () => {
     const mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
     for (let prop in user) {
-      console.log("------------------");
       for (let prop in user) {
         if (user[prop].length == 0) {
           setValid(false);
-          console.log("Oops");
           break;
         } else {
           if (
@@ -85,9 +83,7 @@ const Contact = () => {
     }
   }, [user]);
 
-  useEffect(() => {
-    console.log("valid:", valid);
-  }, [valid]);
+  useEffect(() => {}, [valid]);
 
   useEffect(() => {
     if (show) {
@@ -115,7 +111,6 @@ const Contact = () => {
           setLoading(false);
         },
         (error) => {
-          console.log(error.text);
           setLoading(false);
         }
       );

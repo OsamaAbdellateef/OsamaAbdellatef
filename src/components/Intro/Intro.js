@@ -39,25 +39,16 @@ export default function Intro() {
             </a>
           </div>
           <div className="intro-icons justify-content-center justify-content-lg-start ">
-            <a
-              whileHover={{ scale: 1.2 }}
-              href="https://github.com/OsamaAbdellateef"
-              target="_blank"
-            >
+            <a href="https://github.com/OsamaAbdellateef" target="_blank">
               <AiFillGithub fontSize={40} />
             </a>
             <a
-              whileHover={{ scale: 1.2 }}
               href="https://www.linkedin.com/in/osama-abdellateif"
               target="_blank"
             >
               <AiOutlineLinkedin fontSize={40} />
             </a>
-            <a
-              href="https://twitter.com/OsamaAbdo98"
-              target="_blank"
-              whileHover={{ scale: 1.2 }}
-            >
+            <a href="https://twitter.com/OsamaAbdo98" target="_blank">
               <AiOutlineTwitter fontSize={40} />
             </a>
           </div>
