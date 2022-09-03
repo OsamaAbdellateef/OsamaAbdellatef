@@ -13,7 +13,7 @@ import { ThemeContext } from "./themeContext";
 function App() {
   const [expand, setExpand] = useState(false);
   const { darkMode } = useContext(ThemeContext);
-
+  document.title = "Osama Abellatif";
   return (
     <div className={`App ${darkMode && "dark"}`}>
       <Navbar darkMode={darkMode} expand={expand} setExpand={setExpand} />
