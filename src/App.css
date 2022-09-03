@@ -62,7 +62,7 @@
   color: white;
   font-size: 1.5rem;
   padding: 1.5rem;
-  background-image: linear-gradient(180deg, #ff9197 26.71%, #eb3b5a 99.36%);
+  background-image: linear-gradient(180deg, #ff6b73 26.71%, #eb3b5a 99.36%);
   box-shadow: 0 20px 24px 3px rgba(231, 81, 146, 0.42);
   transition: var(--trans-md);
   cursor: pointer;

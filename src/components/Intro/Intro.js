@@ -9,7 +9,6 @@ import {
   AiOutlineTwitter,
 } from "react-icons/ai";
 import { ThemeContext } from "../../themeContext";
-import { motion } from "framer-motion";
 
 export default function Intro() {
   const { darkMode } = useContext(ThemeContext);
@@ -40,27 +39,27 @@ export default function Intro() {
             </a>
           </div>
           <div className="intro-icons justify-content-center justify-content-lg-start ">
-            <motion.a
+            <a
               whileHover={{ scale: 1.2 }}
               href="https://github.com/OsamaAbdellateef"
               target="_blank"
             >
               <AiFillGithub fontSize={40} />
-            </motion.a>
-            <motion.a
+            </a>
+            <a
               whileHover={{ scale: 1.2 }}
               href="https://www.linkedin.com/in/osama-abdellateif"
               target="_blank"
             >
               <AiOutlineLinkedin fontSize={40} />
-            </motion.a>
-            <motion.a
+            </a>
+            <a
               href="https://twitter.com/OsamaAbdo98"
               target="_blank"
               whileHover={{ scale: 1.2 }}
             >
               <AiOutlineTwitter fontSize={40} />
-            </motion.a>
+            </a>
           </div>
         </div>
         <div className="intro-right d-none d-md-flex">

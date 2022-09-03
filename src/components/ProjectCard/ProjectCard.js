@@ -7,7 +7,6 @@ import { MdOutlinePreview } from "react-icons/md";
 import { GrFormClose, GrFormView, GrView } from "react-icons/gr";
 import Modal from "react-bootstrap/Modal";
 import { Button } from "react-bootstrap";
-import { motion } from "framer-motion";
 
 const ProjectCard = ({
   viewImg,

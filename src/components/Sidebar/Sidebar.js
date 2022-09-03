@@ -1,7 +1,6 @@
 import "./sidebar.style.css";
 import { Link } from "react-scroll";
 import { AiOutlineCloseCircle } from "react-icons/ai";
-import { motion } from "framer-motion";
 
 const Sidebar = ({ expand, setExpand }) => {
   return (
@@ -18,7 +17,7 @@ const Sidebar = ({ expand, setExpand }) => {
           setExpand(false);
         }}
       />
-      <motion.ul
+      <ul
         initial={{ x: -950 }}
         animate={{ x: 0 }}
         transition={{ delay: 1.8 }}
@@ -100,7 +99,7 @@ const Sidebar = ({ expand, setExpand }) => {
             contact
           </Link>
         </li>
-      </motion.ul>
+      </ul>
     </div>
   );
 };

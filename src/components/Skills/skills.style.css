@@ -7,7 +7,7 @@
 }
 
 .skills-section .CircularProgressbar-text {
-  fill: var(--orange);
+  fill: #ffa696;
   font-weight: 500;
   font-style: italic;
 }
