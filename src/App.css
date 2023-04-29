@@ -2,7 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Raleway";
+  /* font-family: ""; */
+  font-family: cursive;
 }
 
 :root {
@@ -33,6 +34,7 @@
 /* utilities */
 .shadow-sm {
   box-shadow: 0 0 5px 1px rgb(224, 224, 224);
+  /* font-family: cursive; */
 }
 
 .shadow-md {

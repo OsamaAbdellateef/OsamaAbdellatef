@@ -22,7 +22,7 @@
 }
 
 .intro-name > span {
-  font-family: "Raleway";
+  /* font-family: "Raleway"; */
 }
 
 .intro-name > :nth-child(1),
