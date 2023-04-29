@@ -23,7 +23,7 @@ export default function Intro() {
             <span className={`${darkMode && "text-white"} mt-4 mt-md-0`}>
               Hello! i'm{" "}
             </span>
-            <span>Osama Abdellatif</span>
+            <span>OSOS Abdellatif</span>
             <span>
               FrontEnd Developer with high level of experience in web designing
               and developement, producing the quality work
