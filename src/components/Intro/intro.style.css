@@ -32,7 +32,6 @@
 }
 
 .intro-name > :nth-child(1) {
-  font-family: "Old Standard TT";
   font-weight: bolder;
   font-style: italic;
   color: var(--black);
